@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+
+span {
+	color: #424242;
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	position: absolute;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	-moz-transition:    all .5s;
+	-webkit-transition: all .5s;
+	-ms-transition:     all .5s;
+	-o-transition:      all .5s;
+	transition:         all .5s;
+}
+
+.one   { left: 0     }
+.two   { left: -100% }
+.three { left: -200% }
+
+section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#section1 {
+	background: #8BC34A;
+}
+
+#section2 {
+	left: 100%;
+	background: #4ecdc4;
+}
+
+#section3 {
+	left: 200%;
+	background: #ff6b6b;
+}
+
+#r {
+	position: absolute;
+	top: 45%;
+	right: 0;
+}
+
+#l {
+	position: absolute;
+	top: 45%;
+	left: 0;
+}
