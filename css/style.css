@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+body {
+	position: absolute;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	-moz-transition:    all .5s;
+	-webkit-transition: all .5s;
+	-ms-transition:     all .5s;
+	-o-transition:      all .5s;
+	transition:         all .5s;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  font-family: Source Code Pro, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  transform: translate(0, -50%);
+}
+
+p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#main {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	bottom: 20%;
+	font-family: Source Code Pro, sans-serif;
+	text-align: center;
+}
+
+span {
+	color: #424242;
+}
+
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
+.one   { left: 0     }
+.two   { left: -100% }
+.three { left: -200% }
+
+section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#section1 {
+	background: #8BC34A;
+}
+
+#section2 {
+	left: 100%;
+	background: #4ecdc4;
+}
+
+#section3 {
+	left: 200%;
+	background: #ff6b6b;
+}
+
+#rIcon {
+	position: absolute;
+	top: 45%;
+	right: 0;
+}
+
+#lIcon{
+	position: absolute;
+	top: 45%;
+	left: 0;
+}
+
+project {
+	padding: 10px;
+}
+
+.project:hover {
+	font-size: 14.5px;
+	transition: 0.2s;
+	cursor: pointer;
+}
