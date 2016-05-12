@@ -1,4 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+body {
+	position: absolute;
+	left: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	-moz-transition:    all .5s;
+	-webkit-transition: all .5s;
+	-ms-transition:     all .5s;
+	-o-transition:      all .5s;
+	transition:         all .5s;
+}
 
 h1 {
   position: absolute;
@@ -24,6 +36,21 @@ h2 {
   transform: translate(0, -50%);
 }
 
+p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#main {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	right: 20%;
+	bottom: 20%;
+	font-family: Source Code Pro, sans-serif;
+	text-align: center;
+}
+
 span {
 	color: #424242;
 }
@@ -31,19 +58,6 @@ span {
 html {
 	height: 100%;
 	overflow: hidden;
-}
-
-body {
-	position: absolute;
-	left: 0;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	-moz-transition:    all .5s;
-	-webkit-transition: all .5s;
-	-ms-transition:     all .5s;
-	-o-transition:      all .5s;
-	transition:         all .5s;
 }
 
 .one   { left: 0     }
@@ -70,13 +84,13 @@ section {
 	background: #ff6b6b;
 }
 
-#r {
+#rIcon {
 	position: absolute;
 	top: 45%;
 	right: 0;
 }
 
-#l {
+#lIcon{
 	position: absolute;
 	top: 45%;
 	left: 0;
