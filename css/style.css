@@ -41,9 +41,9 @@ p {
 	font-weight: bold;
 }
 
-#main {
+.main {
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 20%;
 	right: 20%;
 	bottom: 20%;
@@ -63,6 +63,7 @@ html {
 .one   { left: 0     }
 .two   { left: -100% }
 .three { left: -200% }
+.four { left: -300% }
 
 section {
 	position: absolute;
@@ -84,6 +85,11 @@ section {
 	background: #ff6b6b;
 }
 
+#section4 {
+	left: 300%;
+	background: gray;
+}
+
 #rIcon {
 	position: absolute;
 	top: 45%;
@@ -96,12 +102,32 @@ section {
 	left: 0;
 }
 
-project {
-	padding: 10px;
+#rIcon:hover, 
+#lIcon:hover{
+	cursor: pointer;
+	animation: animationArrow 0.5s infinite;
 }
+
+@keyframes animationArrow {
+	50% {		
+		transform: rotate(8deg);
+	}
+	100% { 
+		transform: rotate(-8deg);
+	}
+}
+
+/*.project {
+	padding: 10px;
+}*/
 
 .project:hover {
 	font-size: 14.5px;
 	transition: 0.2s;
 	cursor: pointer;
+}
+
+.imgPor {
+	width: 100%;
+	height: auto;
 }
